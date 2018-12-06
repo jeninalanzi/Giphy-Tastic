@@ -1,0 +1,55 @@
+/* CSS for the main body properties. */
+
+body {
+    background-color: #222222;
+    background: url(../images/wallpaper.wiki-Free-cool-background-wallpaper-PIC-WPD009960.jpg) no-repeat fixed center;
+    
+    color: #ffffff;
+}
+
+.jumbotron {
+    opacity: 0.9;
+}
+
+
+header, .jumbotron, footer {
+    background-color: #0d0216;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+header {
+    margin: 30px auto;
+    padding: 30px;
+}
+
+footer {
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    font-size: 0rem;
+    color: #7c7480;
+}
+
+
+
+/* CSS for the elements. */
+
+button {
+    margin: 5px;
+}
+
+.btn-dark {
+    background-color: #4d1c4d;
+    border-color: #340635;
+}
+
+.btn-dark:hover {
+    background-color: #0d0216;
+}
+
+input {
+    background-color: #000000;
+    
+}
